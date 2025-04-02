@@ -40,14 +40,8 @@
                 <a href="" class="text-[40px] md:ml-[2vh]">23rd</a>
             </div>
                 <div class="ml-[2vh] p-4 md:p-0 md:ml-[3vh]">
-<<<<<<< HEAD
                     <a href="{{ url('/') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
                     <a href="{{ url('/menus') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
-                    <a href="{{ url('/contact-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
-=======
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
                     <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
                     <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
                 </div>
@@ -57,31 +51,9 @@
         </div>
     </nav>
 
-    <section class="h-screen">
-        <div class="grid grid-cols-2 h-full">
-            <div class="mt-60 ml-32 text-white">
-                    <p class="font-bold text-[13pt]">
-                        Great coffee. Good company. Always welcoming.
-                    </p>
-                <h1 class="text-[50px] text-[#f6d702] font-bold">
-                    WELCOME TO <br>
-                </h1>
-                        <img src="{{ URL('images/the.png') }}" alt="" class="w-[450px] h-[175px] ml-[10vh]">
-                    <p class="ml-[10.5vh] font-bold text-[13pt]">
-                    From expertly brewed coffee and handcrafted lattes to <br>
-                    freshly baked pastries and wholesome bites, we serve up <br>
-                    Warmth in every sip and bite.
-                    </p>
-                    <button type="button" class="focus:outline-none text-[#233d3d] bg-yellow-400 hover:bg-yellow-500 font-medium 
-                    rounded-full text-base px-5 py-2.5 me-2 mb-2 ml-[10vh] mt-[10px]">Order now
-                        <span><i class="fa-solid fa-arrow-right items-center"></i></span>
-                    </button>
-            </div>
-                <div>
-                    <img src="{{ URL('images/setting.jpg') }}" alt="" class="h-[92vh] w-full object-cover">
-                </div>
-        </div>
-    </section>
-    
+    <button class="bg-[] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+    Button
+    </button>
+
 </body>
 </html>
