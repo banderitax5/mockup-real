@@ -40,17 +40,10 @@
                 <a href="" class="text-[40px] md:ml-[2vh]">23rd</a>
             </div>
                 <div class="ml-[2vh] p-4 md:p-0 md:ml-[3vh]">
-<<<<<<< HEAD
                     <a href="{{ url('/') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
                     <a href="{{ url('/menus') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
                     <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
                     <a href="{{ url('/contact-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
-=======
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
->>>>>>> 61420b31a7205b072535729ae326452a98b9ceaa
                 </div>
                 <div class="ml-[115vh] p-4 md:ml-[98vh] md:ml-auto">
                     <a href=""><i class="fa-regular fa-user hover:text-[#f6d702] text-[28px]"></i></a>

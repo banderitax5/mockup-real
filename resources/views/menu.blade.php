@@ -50,10 +50,21 @@
                 </div>
         </div>
     </nav>
+    <div class="flex flex-row mt-[5vh] ml-[5vh] space-x-4">
+        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+        Hot
+        </button>
+        <button class="bg-[#f6d702] hover:bg-white text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+        Cold
+        </button>   
+    </div>
+       
+    <div>
+    <a href=""> <i class="fa-solid fa-circle-chevron-left text-white mt-[5vh] ml-[5vh] rounded-full hover:bg-[#f6d702] text-[35pt]"></i></a>
+    </div>
 
-    <button class="bg-[] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-    Button
-    </button>
+    
+    
 
 </body>
 </html>
