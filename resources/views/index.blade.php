@@ -64,7 +64,7 @@
                     <p class="ml-[10.5vh] font-bold leading-0 text-[13pt]">
                     From expertly brewed coffee and handcrafted lattes to <br>
                     freshly baked pastries and wholesome bites, we serve up <br>
-                    Warmth in every sip and bite. 
+                    Warmth in every sip and bite. asd
                     </p>
                     <button type="button" class="focus:outline-none text-[#233d3d] bg-yellow-400 hover:bg-yellow-500 font-medium 
                     rounded-full text-base px-5 py-2.5 me-2 mb-2 ml-[10vh] mt-[10px]">Order now
