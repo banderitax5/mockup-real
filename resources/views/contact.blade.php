@@ -42,7 +42,7 @@
                 <div class="ml-[2vh] p-4 md:p-0 md:ml-[3vh]">
                     <a href="{{ url('/') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
                     <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
+                    <a href="{{ url('/about-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
                     <a href="{{ url('/contact-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
                 </div>
                 <div class="ml-[115vh] p-4 md:ml-[98vh] md:ml-auto">
@@ -84,6 +84,11 @@
                                 <img src="{{ URL('images/location.png') }}" alt="" class="h-auto w-[5%] ml-[10vh] object-cover">
                                 <p class=" text-[#0a0a0a] ml-[4vh] font-bold text-[16pt]">
                                 FEU Roosevelt Cainta
+                                </p>
+                            </div>
+
+                            <div class="flex items-center mt-10">
+                                <img src="{{ URL('images/telephone2.png') }}" alt="" class="h-auto w-[100%] ml-[115vh] mt-[-40vh] object-cover">
                                 </p>
                             </div>
                 </div>

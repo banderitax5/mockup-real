@@ -40,42 +40,55 @@
                 <a href="" class="text-[40px] md:ml-[2vh]">23rd</a>
             </div>
                 <div class="ml-[2vh] p-4 md:p-0 md:ml-[3vh]">
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
+                    <a href="{{ url('/') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
                     <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
-                    <a href="{{ route('about') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
+                    <a href="{{ url('/about-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
+                    <a href="{{ url('/contact-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
                 </div>
                 <div class="ml-[115vh] p-4 md:ml-[98vh] md:ml-auto">
                     <a href=""><i class="fa-regular fa-user hover:text-[#f6d702] text-[28px]"></i></a>
                 </div>
         </div>
     </nav>
-
     <section class="h-screen">
         <div class="grid grid-cols-2 h-full">
-            <div class="mt-60 ml-32 text-white">
-                    <p class="font-bold text-[13pt]">
-                        Great coffee. Good company. Always welcoming.
+            <div class=" text-white">
+            <img src="{{ URL('images/the.png') }}" alt="" class="w-[450px] h-[175px] ml-[5vh] mt-[6vh]">
                     </p>
-                <h1 class="text-[50px] text-[#f6d702] font-bold">
-                    WELCOME TO <br>
-                </h1>
-                        <img src="{{ URL('images/the.png') }}" alt="" class="w-[450px] h-[175px] ml-[10vh]">
-                    <p class="ml-[10.5vh] font-bold text-[13pt]">
-                    From expertly brewed coffee and handcrafted lattes to <br>
-                    freshly baked pastries and wholesome bites, we serve up <br>
-                    Warmth in every sip and bite. asd
-                    </p>
-                    <button type="button" class="focus:outline-none text-[#233d3d] bg-yellow-400 hover:bg-yellow-500 font-medium 
-                    rounded-full text-base px-5 py-2.5 me-2 mb-2 ml-[10vh] mt-[10px]">Order now
-                        <span><i class="fa-solid fa-arrow-right items-center"></i></span>
-                    </button>
+                <h1 class="font-bold ml-20 mt-[3vh] text-[17pt] whitespace-nowrap">
+                Welcome to The 23rd Cafe, where every visit is a delightful experience. We're not just about great coffee<br> we serve a 
+                perfect blend of flavors, from freshly brewed coffees to delicious pastas and rice meals.<br> Whether you're looking to 
+                unwind with a cup of our coffee or enjoy a satisfying meal, we've got something <br>for everyone. Come in, relax, and 
+                savor the perfect combination of comfort and taste. 
+
+                <div class="flex justify-between items-start gap-10 mt-10">
+                    
+    <div class="flex gap-6">
+        <img src="{{ URL('images/Morning Coffee.jpeg') }}" alt="Morning Coffee" class="h-[38vh] w-[38vh] object-cover rounded-lg">
+        <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt="Spaghetti Aglio e Olio" class="h-[38vh] w-[38vh] object-cover rounded-lg">
+        <img src="{{ URL('images/Korean Ground Beef Bowl.jpeg') }}" alt="Korean Ground Beef Bowl" class="h-[38vh] w-[38vh] object-cover rounded-lg">
+    </div>
+
+    <div class="text-[#f6d702] font-bold text-[18pt] ml-[130vh]">
+    <p>Best Seller For Coffee</p>
+    <p class="text-white mt-4 mb-4">Coffee Name</p>
+    <p>Best Seller For Pasta</p>
+    <p class="text-white mt-4 mb-4">Pasta Name</p>
+    <p>Best Seller For Rice Meal</p>
+    <p class="text-white mt-4 mb-4">Rice Meal Name</p>
+</div>
+</div>
+             
             </div>
-                <div>
-                    <img src="{{ URL('images/setting.jpg') }}" alt="" class="h-[92vh] w-full object-cover">
-                </div>
+            <div class="text-[#f6d702] font-bold text-[18pt] mt-[10vh] ml-[55vh]">
+                <p>Hours</p>
+                <p>Monday - Friday 00:00 - 00:00</p>
+                <p>Saturday - Sunday 00:00 - 00:00</p>
+            </div>
         </div>
+
     </section>
-    
+
+
 </body>
 </html>
