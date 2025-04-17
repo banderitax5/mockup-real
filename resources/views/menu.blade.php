@@ -61,28 +61,137 @@
             class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
             Hot
         </button>
-        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
-        Cold
+        <button
+            class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+            Cold
         </button>
-        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
-        Meals
+        <button
+            class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+            Meals
         </button>
-        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
-        Snacks
+        <button
+            class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+            Snacks
         </button>
     </div>
 
     <div>
-    <a href=""> <i class="fa-solid fa-circle-chevron-left text-white mt-[5vh] ml-[5vh] rounded-full hover:bg-[#f6d702] text-[35pt]"></i></a>
+        <a href=""> <i
+                class="fa-solid fa-circle-chevron-left text-white mt-[5vh] ml-[5vh] rounded-full hover:bg-[#f6d702] text-[35pt]"></i></a>
     </div>
 
-    
+
     <div class="w-full min-h-screen gap-6 flex-wrap flex justify-center items-center">
 
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Morning Coffee.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
 
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
         </div>
+
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+        </div>
+
+    </div>
 
     </div>
 
