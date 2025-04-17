@@ -38,13 +38,14 @@
 <body class="bg-[#233d3d]">
     <nav class="bg-[#f8f2f3] h-[75px] sticky top-0 z-50 w-full font-medium md:w-auto">
         <div class="flex items-center gap-[1px] ml-[2vh] md: w-auto">
-            <a href=""><img src="{{ URL('/images/ico/feu.png')}}" alt="23rd" class="mt-[1] mx-[10px] w-12 "></a>
+            <a href="{{ url('/') }}"><img src="{{ URL('/images/ico/feu.png')}}" alt="23rd"
+                    class="mt-[1] mx-[10px] w-12 "></a>
             <div>
-                <a href="" class="text-[40px] md:ml-[2vh]">23rd</a>
+                <a href="{{ url('/') }}" class="text-[40px] md:ml-[2vh]">23rd</a>
             </div>
             <div class="ml-[2vh] p-4 md:p-0 md:ml-[3vh]">
                 <a href="{{ url('/') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>
-                <a href="{{ url('/menus') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
+                <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
                 <a href="{{ url('/about-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About
                     Us</a>
                 <a href="{{ url('/contact-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact

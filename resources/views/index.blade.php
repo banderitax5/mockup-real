@@ -35,9 +35,9 @@
 <body class="bg-[#233d3d]">
     <nav class="bg-[#f8f2f3] h-[75px] sticky top-0 z-50 w-full font-medium md:w-auto">
         <div class="flex items-center gap-[1px] ml-[2vh] md: w-auto">
-            <a href=""><img src="{{ URL('/images/ico/feu.png')}}" alt="23rd" class="mt-[1] mx-[10px] w-12 "></a>
+            <a href="{{ url('/') }}"><img src="{{ URL('/images/ico/feu.png')}}" alt="23rd" class="mt-[1] mx-[10px] w-12 "></a>
             <div>
-                <a href="" class="text-[40px] md:ml-[2vh]">23rd</a>
+                <a href="{{ url('/') }}" class="text-[40px] md:ml-[2vh]">23rd</a>
             </div>
                 <div class="ml-[2vh] p-4 md:p-0 md:ml-[3vh]">
                     <a href="{{ url('/') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
@@ -51,7 +51,7 @@
         </div>
     </nav>
 
-    <section class="h-screen">
+    <section class="h-5/6">
         <div class="grid grid-cols-2 h-full">
             <div class="mt-60 ml-32 text-white">
                     <p class="font-bold text-[13pt]">
@@ -67,7 +67,7 @@
                     Warmth in every sip and bite.
                     </p>
                     <button type="button" class="focus:outline-none text-[#233d3d] bg-yellow-400 hover:bg-yellow-500 font-medium 
-                    rounded-full text-base px-5 py-2.5 me-2 mb-2 ml-[10vh] mt-[10px]">Order now
+                    rounded-full text-base px-5 py-2.5 me-2 mb-2 ml-[10vh] mt-[20px]">Order now
                         <span><i class="fa-solid fa-arrow-right items-center"></i></span>
                     </button>
             </div>
