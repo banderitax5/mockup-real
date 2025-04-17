@@ -35,15 +35,15 @@
 <body class="bg-[#233d3d]">
     <nav class="bg-[#f8f2f3] h-[75px] sticky top-0 z-50 w-full font-medium md:w-auto">
         <div class="flex items-center gap-[1px] ml-[2vh] md: w-auto">
-            <a href=""><img src="{{ URL('/images/ico/feu.png')}}" alt="23rd" class="mt-[1] mx-[10px] w-12 "></a>
+            <a href="{{ url('/') }}"><img src="{{ URL('/images/ico/feu.png')}}" alt="23rd" class="mt-[1] mx-[10px] w-12 "></a>
             <div>
-                <a href="" class="text-[40px] md:ml-[2vh]">23rd</a>
+                <a href="{{ url('/') }}" class="text-[40px] md:ml-[2vh]">23rd</a>
             </div>
                 <div class="ml-[2vh] p-4 md:p-0 md:ml-[3vh]">
                     <a href="{{ url('/') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>    
                     <a href="{{ url('/menus') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
-                    <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
+                    <a href="{{ url('/about-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About Us</a>
+                    <a href="{{ url(path: '/contact-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact Us</a>
                 </div>
                 <div class="ml-[115vh] p-4 md:ml-[98vh] md:ml-auto">
                     <a href=""><i class="fa-regular fa-user hover:text-[#f6d702] text-[28px]"></i></a>
@@ -54,16 +54,9 @@
         <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
         Hot
         </button>
-        <button class="bg-[#f6d702] hover:bg-white text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
         Cold
         </button>   
-        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
-        Meals
-        </button> 
-        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
-        Snacks
-        </button> 
-        
     </div>
        
     <div>
@@ -84,7 +77,13 @@
 
     </div>
     
-    
+    <div class="w-full min-h-screen gap-6 flex-wrap flex justify-center items-center">
 
+        <div class="w-60 p-2 bg-white rounded-xl transform transition-all hover: translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            
+        </div>
+
+    </div>
+    
 </body>
 </html>
