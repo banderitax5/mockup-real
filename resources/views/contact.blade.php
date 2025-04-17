@@ -45,7 +45,7 @@
             </div>
             <div class="ml-[2vh] p-4 md:p-0 md:ml-[3vh]">
                 <a href="{{ url('/') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Home</a>
-                <a href="" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
+                <a href="{{ url('/menus') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Menu</a>
                 <a href="{{ url('/about-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">About
                     Us</a>
                 <a href="{{ url('/contact-us') }}" class="text-[23px] my-[10px] mx-[20px] hover:text-[#dfc302]">Contact
