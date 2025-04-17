@@ -56,7 +56,13 @@
         </button>
         <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
         Cold
-        </button>   
+        </button>  
+        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+        Meals
+        </button>
+        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+        Snacks
+        </button> 
     </div>
        
     <div>
