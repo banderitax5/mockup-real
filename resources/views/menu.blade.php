@@ -61,17 +61,22 @@
             class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
             Hot
         </button>
-        <button
-            class="bg-[#f6d702] hover:bg-white text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
-            Cold
+        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+        Cold
+        </button>
+        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+        Meals
+        </button>
+        <button class="bg-white hover:bg-[#f6d702] text-black font-bold py-2 px-4 rounded-full ring-gray-700 ring-2 w-32">
+        Snacks
         </button>
     </div>
 
     <div>
-        <a href=""> <i
-                class="fa-solid fa-circle-chevron-left text-white mt-[5vh] ml-[5vh] rounded-full hover:bg-[#f6d702] text-[35pt]"></i></a>
+    <a href=""> <i class="fa-solid fa-circle-chevron-left text-white mt-[5vh] ml-[5vh] rounded-full hover:bg-[#f6d702] text-[35pt]"></i></a>
     </div>
 
+    
     <div class="w-full min-h-screen gap-6 flex-wrap flex justify-center items-center">
 
         <div
