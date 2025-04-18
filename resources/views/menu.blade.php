@@ -18,16 +18,16 @@
             {
                 extend:
                 {
-                    colors: 
-                        {
-                                primary: '#233d3d',
-                                secondary: '#f6d702',
-                                accent: '#f8f2f3'
-                        }
-                    fontFamily: 
-                        {
-                                nickainley:['NICKAINLEY', 'cursive'],
-                        }
+                    colors:
+                    {
+                        primary: '#233d3d',
+                        secondary: '#f6d702',
+                        accent: '#f8f2f3'
+                    }
+                    fontFamily:
+                    {
+                        nickainley: ['NICKAINLEY', 'cursive'],
+                    }
                 }
             }
         }
@@ -82,7 +82,7 @@
 
 
     <div class="w-full min-h-screen gap-6 flex-wrap flex justify-center items-center">
-
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Morning Coffee.jpeg') }}" alt=""
@@ -92,8 +92,56 @@
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
 
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
+        <div
+            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
+            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
+                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
+            <div class="p-2">
+                <h2 class="font-bold text-lg mb-2">TITLE</h2>
+                <span class="text-x1 font-semibold">P120</span>
+            </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
@@ -103,8 +151,27 @@
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
 
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
@@ -114,8 +181,27 @@
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
 
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
@@ -125,8 +211,27 @@
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
 
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
@@ -136,8 +241,27 @@
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
 
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
@@ -147,8 +271,27 @@
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
 
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
@@ -158,8 +301,27 @@
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
 
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
@@ -169,25 +331,53 @@
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
 
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <!-- card -->
         <div
             class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
             <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
                 class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
             <div class="p-2">
-
                 <h2 class="font-bold text-lg mb-2">TITLE</h2>
                 <span class="text-x1 font-semibold">P120</span>
             </div>
-        </div>
-        <div
-            class="w-60 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2x1 mt-4 mb-4 lg:mt-0">
-            <img src="{{ URL('images/Spaghetti Aglio e Olio with Garlic and Chili.jpeg') }}" alt=""
-                class="w-56 h-40 object-cover rounded-xl m-auto mt-2">
-            <div class="p-2">
-                <h2 class="font-bold text-lg mb-2">TITLE</h2>
-                <span class="text-x1 font-semibold">P120</span>
+            <p class="m-2 text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+
+            <div class="flex items-center justify-center mb-3 gap-1 ml-2">
+                <button type="button"
+                    class="focus:outline-none text-gray-900 bg-[#f6d702] hover:bg-yellow-400 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:focus:ring-yellow-900">Buy
+                    now
+                </button>
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+                    <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 18 21">
+                        <path
+                            d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z" />
+                    </svg>
+                    Buy now
+                </button>
             </div>
         </div>
 
