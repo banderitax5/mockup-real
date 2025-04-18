@@ -18,7 +18,7 @@
                 {
                     colors: 
                         {
-                                primary: '#233d3d',
+                                primary: '#233d3d' ,
                                 secondary: '#f6d702',
                                 accent: '#f8f2f3'
                         }
